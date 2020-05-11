@@ -1,8 +1,8 @@
 # novakom
 
-Automatically checking utility bills on [novakom](https://www.novakom.com.ua/, "www.novakom.com.ua")
+Automatically check utility bills on [novakom](https://www.novakom.com.ua/, "www.novakom.com.ua")
 
-The script will open www.novakom.com.ua navigate through the site and open page with utility bills information. You need just to click print if you want. 
+The script will open www.novakom.com.ua navigate through the site and open page with the utility bills information. You need just to click print if you want. 
 
 
 ### Setup process
@@ -18,7 +18,7 @@ CODE="your_communal_code"
 FLAT="your_flat_number"
 ````
 
-5. Create create shell script with the next data:
+5. Create shell script with the next data:
 
 ````
 python /path/novakom/novakom.py
@@ -28,4 +28,4 @@ Where `path` - path to novakom folder.
 
 ### Run
 
-After setting up your `.env` file and shell script you can run the application by executing the script.
+After setting up your `.env` file and shell script you can run the application by executing the shell script.
